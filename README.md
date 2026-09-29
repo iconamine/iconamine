@@ -26,7 +26,18 @@ I bring a consultant's discipline, an engineer's problem-solving mindset and a s
 | **Business analysis & quality** | Requirements · specifications · acceptance criteria · UAT · defect tracking · traceability |
 | **Engineering** | Java · Java EE · REST APIs · Git/GitHub · Docker · Agile/Scrum · V-cycle |
 
-### Featured project
+### Featured projects
+
+#### [DataTrust 360](https://github.com/iconamine/datatrust-360)
+
+An enterprise-style, real-time data quality and transaction-risk platform:
+
+- Kafka-compatible streaming with Redpanda and schema-validated events;
+- PostgreSQL, Redis caching and MinIO/S3 raw-event archival;
+- dbt analytics marts, Airflow orchestration and MLflow model tracking;
+- authenticated FastAPI risk service and Streamlit operations dashboard;
+- Prometheus/Grafana observability, Docker Compose and Kubernetes manifests;
+- 13 automated tests, static typing, security analysis and GitHub Actions CI.
 
 #### [Customer Churn Intelligence](https://github.com/iconamine/customer-churn-intelligence)
 
@@ -38,7 +49,7 @@ An end-to-end, explainable machine-learning workflow for customer-retention prio
 - ranked retention queue and interactive Streamlit risk simulator;
 - automated tests, Docker packaging, CI workflow and model card.
 
-The public project contains **no employer or customer data**.
+Both public projects use synthetic data and contain **no employer or customer information**.
 
 ### Experience highlights
 
