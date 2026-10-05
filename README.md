@@ -1,70 +1,102 @@
-<h1 align="center">Mohamed Amine Ajana</h1>
-<p align="center"><strong>Junior Data & IT Consultant · Business Analysis · CRM · Applied AI</strong></p>
+<!-- Profile README for github.com/iconamine. Motion is progressive enhancement. -->
+
 <p align="center">
-  Rabat–Casablanca, Morocco · Open to junior opportunities in Morocco and internationally
-</p>
-<p align="center">
-  <a href="mailto:ajanamine@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/amine-ajana-3a78a0376/">LinkedIn</a> ·
-  <a href="https://github.com/iconamine?tab=repositories">Projects</a>
+  <img src="./assets/hero.svg" width="100%" alt="Mohamed Amine Ajana — Cloud-native systems, data platforms and automation" />
 </p>
 
----
+<p align="center"><a href="mailto:ajanamine@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/amine-ajana-3a78a0376/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/iconamine?tab=repositories">Repositories</a></p>
 
-### About me
+## 01 / Profile
 
-I am a final-year Information Systems Engineering student at EMSI with **11 months of hands-on experience across Deloitte, VISEO and Banque Centrale Populaire**. I work at the intersection of business needs and technology: structuring requirements, improving CRM processes, validating solutions through UAT, and turning data into clear operational decisions.
+Final-year Information Systems Engineering student at EMSI, with hands-on experience across Deloitte, VISEO and Banque Centrale Populaire. I work where operational needs meet dependable systems: translating requirements into testable delivery, building data products that can be run and observed, and designing workflows that make decisions traceable.
 
-I bring a consultant's discipline, an engineer's problem-solving mindset and a strong bias toward reliable, measurable delivery. I communicate comfortably in international teams in **French (DALF C1), English (C1), Arabic and German (Goethe B2)**.
+My public work is deliberately production-minded: containers, tested APIs, deployment manifests, CI, data-quality controls and operational dashboards. I am growing toward cloud infrastructure and platform-engineering roles where reliability, automation and clear operating models matter.
 
-### What I work with
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal summary: reproducible delivery, containers, Kubernetes and observability" />
+</p>
 
-| Area | Tools and methods |
-|---|---|
-| **Data & analytics** | Python · SQL · pandas · NumPy · scikit-learn · KPI design · data quality |
-| **CRM & functional consulting** | Salesforce Sales Cloud · Service Cloud · Flow Builder · Data Loader · LWC |
-| **Business analysis & quality** | Requirements · specifications · acceptance criteria · UAT · defect tracking · traceability |
-| **Engineering** | Java · Java EE · REST APIs · Git/GitHub · Docker · Agile/Scrum · V-cycle |
+## 02 / Engineering domains
 
-### Featured projects
+| Domain | What I work on |
+| :-- | :-- |
+| **Cloud-native delivery** | Containerised services, Kubernetes manifests, repeatable local environments and CI workflows. |
+| **Data systems** | Event contracts, quality controls, API services, orchestration and decision-ready analytics. |
+| **CRM & service operations** | Requirements, acceptance criteria, UAT, defect traceability and operational control towers. |
+| **Observability** | Application metrics, health signals and operational views with Prometheus and Grafana. |
 
-#### [DataTrust 360](https://github.com/iconamine/datatrust-360)
+## 03 / Technical ecosystem
 
-An enterprise-style, real-time data quality and transaction-risk platform:
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>PLATFORM &amp; DELIVERY</strong><br/><br/>
+      <code>Docker</code> &nbsp; <code>Kubernetes</code> &nbsp; <code>GitHub Actions</code> &nbsp; <code>Git</code>
+    </td>
+    <td valign="top" width="50%">
+      <strong>BACKEND &amp; DATA</strong><br/><br/>
+      <code>Python</code> &nbsp; <code>FastAPI</code> &nbsp; <code>SQL</code> &nbsp; <code>PostgreSQL</code> &nbsp; <code>Redis</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>EVENTS &amp; ORCHESTRATION</strong><br/><br/>
+      <code>Kafka / Redpanda</code> &nbsp; <code>dbt</code> &nbsp; <code>Airflow</code> &nbsp; <code>YAML</code>
+    </td>
+    <td valign="top">
+      <strong>OBSERVABILITY &amp; QUALITY</strong><br/><br/>
+      <code>Prometheus</code> &nbsp; <code>Grafana</code> &nbsp; <code>pytest</code> &nbsp; <code>mypy</code>
+    </td>
+  </tr>
+</table>
 
-- Kafka-compatible streaming with Redpanda and schema-validated events;
-- PostgreSQL, Redis caching and MinIO/S3 raw-event archival;
-- dbt analytics marts, Airflow orchestration and MLflow model tracking;
-- authenticated FastAPI risk service and Streamlit operations dashboard;
-- Prometheus/Grafana observability, Docker Compose and Kubernetes manifests;
-- 13 automated tests, static typing, security analysis and GitHub Actions CI.
+<p align="center">
+  <img src="./assets/topology.svg" width="100%" alt="Animated delivery topology: build, package, deliver, observe" />
+</p>
 
-#### [Customer Churn Intelligence](https://github.com/iconamine/customer-churn-intelligence)
+## 04 / Current focus
 
-An end-to-end, explainable machine-learning workflow for customer-retention prioritisation:
+- Strengthening cloud-native operational patterns: container packaging, Kubernetes deployment design and observable services.
+- Building systems with clear contracts, reproducible environments and intentionally scoped failure modes.
+- Deepening platform-engineering foundations for infrastructure, automation and resilient delivery work.
 
-- reproducible synthetic customer dataset with explicit validation;
-- leakage-safe scikit-learn preprocessing and logistic-regression pipeline;
-- ROC AUC, precision, recall and accuracy evaluation;
-- ranked retention queue and interactive Streamlit risk simulator;
-- automated tests, Docker packaging, CI workflow and model card.
+## 05 / Selected systems
 
-Both public projects use synthetic data and contain **no employer or customer information**.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iconamine/datatrust-360">DataTrust 360</a></h3>
+      <p>Observable transaction-risk and data-quality platform built around streaming, trusted data products and explainable decisions.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Kafka</code> <code>PostgreSQL</code> <code>Docker</code> <code>Kubernetes</code> <code>Prometheus</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iconamine/axis-crm-control-tower">AXIS Control Tower</a></h3>
+      <p>Traceable CRM operations workspace that links incidents, requirements, UAT evidence and release decisions in one controlled flow.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Next.js</code> <code>Cloudflare D1</code> <code>Drizzle</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iconamine/kantara">Kantara</a></h3>
+      <p>Supply-chain resilience digital twin that turns corridor disruptions into explainable routing and operating decisions.</p>
+      <p><code>Next.js</code> <code>FastAPI</code> <code>Docker Compose</code> <code>Playwright</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/iconamine/customer-churn-intelligence">Customer Churn Intelligence</a></h3>
+      <p>Reproducible machine-learning workflow for explainable retention prioritisation, packaged with tests and CI.</p>
+      <p><code>Python</code> <code>scikit-learn</code> <code>Streamlit</code> <code>Docker</code> <code>GitHub Actions</code></p>
+    </td>
+  </tr>
+</table>
 
-### Experience highlights
+## 06 / Connect
 
-- **Deloitte — Junior Salesforce Consultant:** translated business needs into functional specifications, acceptance criteria, UAT scenarios and traceable defect follow-up.
-- **VISEO — Salesforce Consultant:** modelled sales and support journeys, configured CRM automation, developed a Lightning Web Component and prepared controlled data imports.
-- **Banque Centrale Populaire — Data Analyst:** prepared and quality-checked analytical datasets, automated the monitoring of 10+ churn KPIs and built a first predictive baseline.
+I welcome conversations about junior roles and collaborations in data systems, IT consulting, cloud-native delivery and operational platforms.
 
-### Selected engineering work
+<p>
+  <a href="mailto:ajanamine@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/amine-ajana-3a78a0376/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/iconamine">GitHub</a>
+</p>
 
-- **Bilingual RAG research assistant:** Python, Streamlit and FAISS retrieval pipeline evaluated on 100 documents and 150 questions, reaching 89.3% Precision@5 and 84.7% Recall@5 in the academic evaluation.
-- **Sentiment-analysis platform:** NLP model, Flask API, MongoDB and React dashboard, with comparison of cloud and local language models.
-- **Medical practice management app:** Android/Java application covering patients, appointments and medical records with SQLite and REST integration.
-
-### Current focus
-
-I am building a portfolio of production-minded Data and IT projects: clear problem framing, reproducible pipelines, tested code, documented limitations and business-ready outputs.
-
-> I am interested in junior roles in Data Analytics, IT Consulting, Business Analysis, CRM/Salesforce, QA/UAT and digital transformation.
+<sub>All portfolio projects use synthetic or non-confidential data. Motion is intentionally subtle and respects reduced-motion preferences where supported.</sub>
